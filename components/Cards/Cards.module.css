@@ -13,14 +13,11 @@
   box-shadow: 0 12px 24px rgba(0,0,0,.15);
 }
 
-@media (max-width: 1024px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.hero img {
+  animation: fade 1s ease;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
