@@ -5,3 +5,7 @@
   font-size: 28px;
   margin-bottom: 16px;
 }
+.info p {
+  color: #555;
+  line-height: 1.6;
+}
