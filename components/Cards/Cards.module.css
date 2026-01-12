@@ -62,3 +62,7 @@
   border-radius: 20px;
   padding: 16px;
 }
+
+.card h3 {
+  margin-top: 12px;
+}
