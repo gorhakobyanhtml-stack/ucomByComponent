@@ -10,6 +10,7 @@
   width: 100%;
   display: block;
   margin: 24px 40px;
+  animation: fade 1s ease;
 }
 
 .hero h1 {
@@ -21,4 +22,9 @@
   font-weight: 700;
   color: white;
   letter-spacing: 6px;
+}
+
+@keyframes fade {
+  from { opacity: 0 }
+  to { opacity: 1 }
 }
