@@ -55,3 +55,7 @@
   from { opacity: 0 }
   to { opacity: 1 }
 }
+
+.card {
+  background: white;
+}
