@@ -47,3 +47,11 @@
   transform: translateY(-6px);
   box-shadow: 0 12px 24px rgba(0,0,0,.15);
 }
+.hero img {
+  animation: fade 1s ease;
+}
+
+@keyframes fade {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
