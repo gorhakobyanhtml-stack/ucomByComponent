@@ -2,3 +2,8 @@
   padding: 80px 40px;
   background: #f9fdec;
 }
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+}
