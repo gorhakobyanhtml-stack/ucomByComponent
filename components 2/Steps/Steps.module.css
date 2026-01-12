@@ -13,3 +13,8 @@
   gap: 24px;
   margin-top: 40px;
 }
+.card {
+  background: #f3ffe0;
+  border-radius: 20px;
+  padding: 32px;
+}
