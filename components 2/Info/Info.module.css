@@ -12,3 +12,8 @@
 .list {
   margin-top: 24px;
 }
+.item {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
